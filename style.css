@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bgimag{
+    background-image: url(images/bgimg2.jfif);
+    background-size: cover;
+}
+header
+{
+  background-color:black;  
+  
+  
+}
+.my_login
+{
+padding: 30px;
+border:solid black 1px;
+float: right;
+background-color:rgb(187, 159, 107);
+height: 18em;
+margin-top :60px;
+  margin-left: 60px;
+  margin-left:100px; 
+  margin-right: 50px;
+  
+  
+}
+.my_login h2
+{
+    text-align: center;
+
+}
+#logg
+{
+    background-color: dodgerblue;
+    width: 100%;
+    border: none;
+    color: white;
+    height: 1.5em;
+}
+#log_bg_img{
+  background-image: url(images/library\ bg\ img.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: white;
+
+text-align: center;
+}
+.navigation
+{
+float: right;
+margin-top: 30px;
+margin-right:  50px;
+}
+.navigation a{
+    border: solid ;
+    border-color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+
+    
+}
+.navigation a:hover{
+    background-color: blanchedalmond;
+    color:black;
+
+}
+p{
+  color: white;
+  text-align: center;
+}
+#bgimg2{
+  background-image: url(images/logimg1.jfif);
+  background-size: cover;
+}
+h1{
+  font-style: italic ;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(199, 137, 57);
+  text-align: center;
+  display: block;
+  background-color: bisque;
+}
+#homebg{
+  background-image: url(images/homebg.jpg);
+
+}
+.book-card{
+  transition: 0.3s ease-in-out;
+}
+.book-card{
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgb(148, 113, 49);
+}
+.hover 
+{
+  color:rgb(182, 154, 154);
+  transition: 0.3s;
+}
+.hover:hover{
+  transform: translateY(-5px);
+  color: rgb(204, 130, 19);
+}
+.gone{
+  color: rgb(206, 184, 176);
+}
